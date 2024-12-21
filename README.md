@@ -2,7 +2,7 @@
 Api that allows to create crypto payments.
 Api client for [crypto-keeper](https://crypto-keeper.com). 
 
-[![npm](https://img.shields.io/npm/v/@userino/admin-api)](https://www.npmjs.com/package/@userino/admin-api)
+[![npm](https://img.shields.io/npm/v/@crypto-keeper/api)](https://www.npmjs.com/package/@crypto-keeper/api)
 
 ## Install
 
@@ -13,7 +13,7 @@ Api client for [crypto-keeper](https://crypto-keeper.com).
 ```tsx
 import api from '@crypto-keeper/api'
 
-const user = await api.payment.create({ amount: 100  })
+const payment = await api.payment.create({ amount: 100  })
 ```
 
 
