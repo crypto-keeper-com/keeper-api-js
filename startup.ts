@@ -11,6 +11,6 @@ serviceStartup.addStep({
   envBlackList: ['test'],
   onRun: async () => {
     // ping requires authorization, so it will crash when auth is not ok
-    await api.health()
+    await api.verify()
   },
 })
